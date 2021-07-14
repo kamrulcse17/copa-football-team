@@ -1,0 +1,184 @@
+/**********Google Fonts********/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/**********Unique Styles***** */
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+/**********Header Area Styles***** */
+
+.container{
+    width:1160px;
+    margin: 0 auto;
+}
+.header-area{
+    background-color: #2D25A0;
+    
+}
+
+.header-banner{
+    
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding-bottom: 86px;
+    padding-top: 67px;
+    
+}
+
+.banner-left h1{
+    font-size: 64px;
+    line-height: 80px;
+    color:white;
+}
+.banner-left a, .highlights-left a{
+    padding: 10px 24px;
+    font-size: 15px;
+    color:white;
+    background-color: #E02C6D;
+    text-decoration: none;
+    align-items: center;
+    opacity: 0.8;
+}
+.banner-right img{
+    width:556px;
+    height:438px;
+}
+
+/***********players area style**********/
+
+.copa-team{
+    margin-top: 70px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+    margin-bottom: 50px;
+}
+.player{
+    padding: 15px;
+    padding-bottom: 30px;
+}
+.player img{
+    width:100%;
+}
+.player h3{
+    font-size: 28px;
+    font-weight: bold;
+    color: #18191F;
+
+}
+.player p, .highlights-left p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: normal;
+    color:#6C6C6C;
+}
+
+/******** Highlights Area Styles *********/
+.highlights-area{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:70px;
+}
+.highlights-left{
+    align-items: center;
+}
+.highlights-left h1{
+    font-size: 40px;
+    line-height: 50px;
+    color:black;
+    padding-top: 30px;
+}
+.highlights-right img{
+    width:100%;
+}
+/***********Team Groups Styles************/
+
+.team-groups{
+    text-align: center;
+    margin-top: 70px;
+}
+.groups{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap:100px;
+    justify-content: center;
+}
+.group-a, .group-b{
+    background-color: rgba(209, 238, 180, 0.212);
+    margin:80px;
+
+    
+    padding-bottom: 50px;
+
+
+    box-shadow:
+       inset 0 -3em 3em rgba(59, 46, 46, 0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.team-groups.section-title{
+    padding-bottom: 50px;
+}
+.groups ul{
+    list-style: none;
+}
+.groups ul li{
+    display: inline;
+}
+.groups ul li a img{
+    height:10%;
+    width:10%;
+}
+/**********Read More On Area Styles*************/
+
+.nations{
+    text-align: center;
+}
+.nations a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    background-color: #b9b5b5;
+    border-radius: 10px;
+}
+.nations a:hover{
+    color:white;
+    opacity: 0.8;
+    transition: 1.5s;
+    background-color: black;
+}
+/***********Footer Area Styles**********/
+.footer-area{
+    margin: 70px;
+    text-align: center;
+}
+.football img{
+    height:110px;
+    width:483px;
+}
+.social-icon ul{
+    list-style: none;
+}
+.social-icon ul li{
+    display: inline;
+    padding-right: 10px;
+}
+.social-icon ul li a i{
+    color:#AFB3BE;
+}
+.footer-area p{
+    font-size: 16px;
+    color:black;
+    opacity: 0.8;
+}
+
+
+/*********************Styles For Mobile Device****************/
